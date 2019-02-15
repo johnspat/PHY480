@@ -1,0 +1,18 @@
+#include <iostream>		// note that .h is omitted
+#include <iomanip>		// note that .h is omitted
+#include <fstream>		// note that .h is omitted
+#include <cmath>
+using namespace std;		// we need this when .h is omitted
+
+int
+main ()
+{ 
+   int N = 10;   // Upper bound for N
+   float first_num_sum1 = 1.;  // First number for sum 1
+   float first_num_sum2 = 1/N;  // First number for sum 2
+   for (int i = 1; i < N; i++)
+      {
+	  first_num_sum1 += 1/(i+1);
+	  first_num_sum2 += 1/(N-i);
+	  }
+  cout << "Sum Up" << first_num_sum1 << "Sum Down" << first_num_sum2 << endl;

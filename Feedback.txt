@@ -1,0 +1,66 @@
+# HW grading scale: check(+) --> excellent (good code and analysis) 
+#                   check    --> satisfactory (minor shortcomings in code and/or analysis)
+#                   check(-) --> significant problems w/code or analysis
+
+
+1) Problem 1 (area.cpp embellishments): 
+
+Your code looks ok, though a few suggestions:
+
+* It's helpful (though modern version control tools like GitHub make it less essential) to either
+add an explicit list of changes you made, or to update the todo list by putting DONE next to the
+items you implemented.
+* Don't forget to close your output filestream.
+* The error message for a negative radius is pretty cryptic. 
+
+2)Problem 2 (sum up/down): 
+
+* Just like variable names, it's a good idea to use informative filenames. (e.g., summing_up_down.cpp
+instead of Homeworkproblem2.cpp.)
+
+* Your code looks ok, though the variable names (first_num_sum1 etc.) could be more descriptive
+(i.e., sum_up and sum_down).
+
+* The flow is a bit confusing, though after stepping through it and looking at the output
+it is doing the right thing. Question: can you think of a more transparent flow? 
+
+* Your figure needs labels (both axes and the legend).
+
+* You have the right idea of why the downward sum is better, but your wording is sloppy. I.e., it's
+not subtractive cancellations (that's when you subtract 2 numbers of roughly the same order of 
+magnitude to produce a small number with much worse precision than the initial 2.) Rather, it's the 
+same mechanism as the example in class where we compared eps+eps+...+eps +1 vs 
+1 + eps + eps +...   
+
+3) Problem 3 (bessel functions): 
+
+* Same comment as above re: naming your program files.
+
+* Your code looks good, and your plot looks correct.
+
+The analysis is missing a few important points. For instance, at small x and large x, the relative
+difference is of order 1. Can you identify which one (if any) is most accurate 
+in these regions? Ditto for the region where the relative difference is around machine precision? 
+
+Both for this and the previous problem, you might find the discussion in the Ch. 4 notes
+about "empirical error analysis" to be useful. There we discuss how the relative difference 
+for 2 approximations is a useful tool even if we don't know the "exact" result.
+
+Note also that the gsl output could be viewed as the "exact" 
+answer (it seems reasonable since it's part of a widely used scientific library!),
+and you could compute relative errors of the up/down versions wrt the gsl output to tease
+out where the up and down versions are accurate.  
+ 
+##### HW grade = check 
+
+Your codes generally have the right idea (though there are some stylistic changes that could
+make it clearer, and some of the program flow could be made a little cleaner (e.g., prob. 2)).
+
+You generally have the right idea on your analysis, though a few points are missing or could be
+made clearer.
+
+Finally, please modify your repo so there's a separate subfolder for each HW.
+
+  
+
+

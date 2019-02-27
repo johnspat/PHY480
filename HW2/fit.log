@@ -1,0 +1,299 @@
+
+
+*******************************************************************************
+Wed Feb 27 13:57:05 2019
+
+
+FIT:    data read from "Simpsons.dat" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3.16700]
+        #datapoints = 733
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Feb 27 13:57:15 2019
+
+
+FIT:    data read from "Simpsons.dat" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3.16700]
+        #datapoints = 733
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 -nan              -nan       2.08e+00    1.000000e+00   1.000000e+00
+
+Current data point
+=========================
+#               = 1 out of 733
+x               = -nan           
+z               = -3.32141       
+
+Current set of parameters
+=========================
+m               = -nan           
+b               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed Feb 27 13:57:52 2019
+
+
+FIT:    data read from "Simpsons.dat" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3.16700]
+        #datapoints = 733
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m*x + b
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 733
+x               = -nan           
+z               = -3.32141       
+
+Current set of parameters
+=========================
+m               = -nan           
+b               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed Feb 27 13:58:25 2019
+
+
+FIT:    data read from "Simpsons.dat" using 1:2
+        format = x:z
+        x range restricted to [0.699000 : 3.16700]
+        #datapoints = 731
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m*x + b
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 731
+x               = -nan           
+z               = -5.07674       
+
+Current set of parameters
+=========================
+m               = -nan           
+b               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed Feb 27 13:59:27 2019
+
+
+FIT:    data read from "Simpsons.dat" using 1:2
+        format = x:z
+        x range restricted to [0.699000 : 3.15740]
+        #datapoints = 715
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m*x + b
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 715
+x               = -nan           
+z               = -5.07674       
+
+Current set of parameters
+=========================
+m               = -nan           
+b               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed Feb 27 14:00:15 2019
+
+
+FIT:    data read from "Simpsons.dat" using 1:2
+        format = x:z
+        x range restricted to [0.800000 : 3.15740]
+        #datapoints = 715
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m*x + b
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 715
+x               = -nan           
+z               = -5.07674       
+
+Current set of parameters
+=========================
+m               = -nan           
+b               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed Feb 27 14:01:16 2019
+
+
+FIT:    data read from "Simpsons.dat" using 1:2
+        format = x:z
+        x range restricted to [0.800000 : 3.15740]
+        #datapoints = 715
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 2.0048513696e+05   0.00e+00  2.08e+00    1.000000e+00   1.000000e+00
+   3 3.1003017282e+00  -2.47e-01  2.08e-03   -4.035078e+00  -1.859699e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 3.1003
+rel. change during last iteration : -2.4678e-06
+
+degrees of freedom    (FIT_NDF)                        : 713
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0659413
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00434825
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -4.03508         +/- 0.006076     (0.1506%)
+b               = -1.8597          +/- 0.01679      (0.9027%)
+
+correlation matrix of the fit parameters:
+                m      b      
+m               1.000 
+b              -0.989  1.000 
+
+
+*******************************************************************************
+Wed Feb 27 14:05:20 2019
+
+
+FIT:    data read from "Milne.dat" using 1:2
+        format = x:z
+        x range restricted to [0.600000 : 2.21000]
+        #datapoints = 40
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 5.6667952868e+02   0.00e+00  5.43e+00   -4.035078e+00  -1.859699e+00
+   4 1.0803953859e+00  -8.80e-05  5.43e-04   -6.421219e+00  -1.199299e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.0804
+rel. change during last iteration : -8.80304e-10
+
+degrees of freedom    (FIT_NDF)                        : 38
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.168616
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0284315
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -6.42122         +/- 0.07404      (1.153%)
+b               = -1.1993          +/- 0.1367       (11.4%)
+
+correlation matrix of the fit parameters:
+                m      b      
+m               1.000 
+b              -0.981  1.000 
+
+
+*******************************************************************************
+Wed Feb 27 14:05:39 2019
+
+
+FIT:    data read from "Milne.dat" using 1:2
+        format = x:z
+        x range restricted to [0.800000 : 2.21000]
+        #datapoints = 39
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 4.4749335434e-01   0.00e+00  8.52e+00   -6.421219e+00  -1.199299e+00
+   4 2.2114982480e-01  -1.92e-01  8.52e-04   -6.189646e+00  -1.645673e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.22115
+rel. change during last iteration : -1.91503e-06
+
+degrees of freedom    (FIT_NDF)                        : 37
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0773112
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00597702
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -6.18965         +/- 0.03906      (0.631%)
+b               = -1.64567         +/- 0.0729       (4.43%)
+
+correlation matrix of the fit parameters:
+                m      b      
+m               1.000 
+b              -0.985  1.000 
+
+
+*******************************************************************************
+Wed Feb 27 14:14:53 2019
+
+
+FIT:    data read from "Milne.dat" using 1:2
+        format = x:z
+        x range restricted to [2.21000 : 5.00000]
+        #datapoints = 24959
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m * x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 -nan              -nan       2.01e+01   -6.189646e+00  -1.645673e+00
+
+Current data point
+=========================
+#               = 1 out of 24959
+x               = -nan           
+z               = -14.9827       
+
+Current set of parameters
+=========================
+m               = -nan           
+b               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")

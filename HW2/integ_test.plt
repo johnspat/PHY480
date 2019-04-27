@@ -1,17 +1,18 @@
 # plot file for diffeq_test_exp_back
 set timestamp
 
-set xlabel 'i (log10)'
-set ylabel 'relative error in integration (log10)'
+set xlabel 'r'
+set ylabel 'u(r)'
 
-set title 'Comparing integrating Algorithms'
+set title 'HW3 plot, Varying Basis Size With b=2'
 
  
- plot "Simpsons.dat" using ($1):($2) title 'Simpsons'
- replot "Simpsons.dat" using ($1):($3) title 'GSL' 
- replot "Milne.dat" using ($1):($2) title 'Milne' 
+ plot "Wavefunctionb2d1.dat" using ($1):($2) title 'Dim=1'
+ replot "Wavefunctionb2d5.dat" using ($1):($3) title 'Dim=5' 
+ replot "Wavefunctionb2d10.dat" using ($1):($2) title 'Dim=10'
+ replot "Wavefunctionb2d20.dat" using ($1):($2) title 'Dim=20' 
  set term postscript
- set output "HW2plot.ps"
+ set output "HW3plot-b=2"
  replot
  
 

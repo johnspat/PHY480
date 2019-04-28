@@ -1,0 +1,27 @@
+
+# Grading Scale: check(+) --> excellent codes and analysis
+                 check    --> satisfactory (missing small gaps in analysis or codes)
+                 check(-) --> unsatisfactory (significant problems with codes/analysis or incomplete)  
+
+The code and results look good (correct slopes etc.). Two stylistic comments:
+
+1) You use the same symbols for all 3 integration methods, which is even worse since
+your plot is black and white (note that the HW asks for a color plot). So there's no
+way to distinguish which is which (though of course I can infer it since I know what 
+slopes I should expect for each). 
+
+2) Whenever one fits some data/numerical points to some functional form (e.g., a line), 
+it's a good idea for presentation and clarity to also plot the fitted line (with the fit
+parameters shown in the legend). See some earlier examples in the notes/activities on how
+to do this.
+
+And one other comment:
+
+3) Your analysis is correct with the exception of the "analytical" estimate of the optimal #
+of points. (Your graphical estimates are good.)
+
+  
+Grade: check
+
+
+

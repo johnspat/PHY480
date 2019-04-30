@@ -1,0 +1,10 @@
+Grades:  check(-) :  some major problems with the codes and/or analysis
+         check    :  good (with some minor gaps in your results/analysis) 
+         check(+) :  excellent 
+         check(++) : excellent with one of the BONUS problems completed
+
+Pretty good job.  
+ 
+Grade: check(++)   
+
+

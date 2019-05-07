@@ -1,0 +1,5 @@
+Nice job. Some sore of error analysis (e.g., changing orders of the ODE solver, or monitoring to what degree is
+the energy not conserved due to numerical noise) would've been nice. But that's outweighed by the fact 
+that you wrote nice clean code and did a decent amount of work.
+
+Grade: Check(+)
